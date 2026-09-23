@@ -16,6 +16,15 @@
     "toknroll": {
       "script-ref": "https://github.com/qxoticai/qxotic/blob/main/toknroll/scripts/toknroll.java",
       "description": "Tok'n'Roll-based utility that provides encode/decode/count from HuggingFace and GGUF tokenizer formats."
+    },
+    "jinfer": {
+      "script-ref": "com.qxotic:jinfer-cli:0.3.0",
+      "description": "Local LLM inference on the JVM: chat, an OpenAI-compatible server and speech recognition over GGUF checkpoints.",
+      "java": "25+",
+      "java-options": [
+        "--add-modules=jdk.incubator.vector,jdk.httpserver",
+        "--enable-native-access=ALL-UNNAMED"
+      ]
     }
   }
 }
