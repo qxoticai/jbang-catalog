@@ -18,7 +18,7 @@
       "description": "Tok'n'Roll-based utility that provides encode/decode/count from HuggingFace and GGUF tokenizer formats."
     },
     "jinfer": {
-      "script-ref": "com.qxotic:jinfer-cli:0.3.1",
+      "script-ref": "com.qxotic:jinfer-cli:0.4.0",
       "description": "Local LLM inference on the JVM: chat, an OpenAI-compatible server with embeddings and reranking, speech synthesis and speech recognition over GGUF checkpoints.",
       "java": "25+",
       "java-options": [
